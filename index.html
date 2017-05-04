@@ -3,10 +3,10 @@
 
 			<head>
 			  <meta charset="utf-8">
-			  <meta name="viewport" content="width=device-width">
+			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			  <title>The Code Review Form</title>
-				<link rel="stylesheet" href="css/styles.css">
 				<link rel="stylesheet" href="css/normalize.css">
+				<link rel="stylesheet" href="css/styles.css">
 				<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans:300" rel="stylesheet">
 			</head>
 
@@ -43,7 +43,7 @@
 
 											<select class="contact-info" id="state" name="user_state">
 														<optgroup label="50 States">
-															 <option value="">Choose Your State</option>
+															 <option value="" selected hidden disabled>Choose Your State</option>
 																<option value="AL">Alabama</option>
 																<option value="AK">Alaska</option>
 																<option value="AZ">Arizona</option>
@@ -124,18 +124,18 @@
 								<legend><h3>NEWSLETTER</h3></legend>
 
 								 	<h5 class="h5-news">Select the newsletters you would like to recieve.</h5>
-										 		<input class="checkbox" type="checkbox" id="html-checkbox" name="user_interest">
+										 		<input class="checkbox" type="checkbox" id="html-checkbox" name="user_interest_html">
 												<label class="html-checkbox" for="html-checkbox">HTML</label><br>
 
-		  						 			<input class="checkbox" type="checkbox" id="css-checkbox" name="user_interest">
+		  						 			<input class="checkbox" type="checkbox" id="css-checkbox" name="user_interest_CSS">
 												<label class="css-checkbox" for="css-checkbox">CSS</label><br>
 
-												<input class="checkbox" type="checkbox" id="javascript-checkbox" name="user_interest">
+												<input class="checkbox" type="checkbox" id="javascript-checkbox" name="user_interest_js">
 												<label class="javascript-checkbox" for="javascript-checkbox">JavaScript</label><br>
 
 									<h5 class="h5-news">Newsletter Format</h5>
 												<input type="radio" name="user_format" id="html-format">
-												<label for="html-format">HTML</label>
+												<label for="html-format">HTML</label> <br>
 
 												<input type="radio" name="user_format" id="plain-text">
 												<label for="plain-text">Plain Text</label>

@@ -103,6 +103,7 @@ input.contact-info, select{
  background-color: white;
  width: 61.5%;
  min-height: 34px;
+ outline: none;
 }
 
 #zip{
